@@ -7,9 +7,9 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/recipes' do
-
     erb :index
   end
+
   get '/recipes/new' do
     erb :"/recipes/new"
   end
