@@ -11,6 +11,6 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/recipe/new' do
-
+    @recipe = 
     redirect to '/recipes'
   end
